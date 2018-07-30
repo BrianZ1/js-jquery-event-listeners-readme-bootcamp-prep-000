@@ -6,6 +6,7 @@ $(document).ready(function(){
   getIt();
   frameIt();
   pressIt();
+  submitIt();
 
 });
 
@@ -28,4 +29,8 @@ function pressIt(){
       alert("G pressed");
     }
   })
+}
+
+function submitIt(){
+  $('submit').on()
 }
