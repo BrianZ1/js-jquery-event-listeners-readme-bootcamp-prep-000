@@ -19,6 +19,7 @@ function getIt(){
 function frameIt(){
   $('img').on("load", function(){
     $('img').attr("class", "tasty");
+    $('img').attr("border", "red");
   })
 }
 
