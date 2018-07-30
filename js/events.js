@@ -14,9 +14,12 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img')
+  $('img').on("load", function(){
+    this.class = tasty;
+    this.border 
+  })
 }
 
 function pressIt(){
-  if(this.)
+  
 }
