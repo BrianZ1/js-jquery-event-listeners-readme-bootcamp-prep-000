@@ -1,5 +1,5 @@
 //define functions here
- frameIt();
+frameIt();
 $(document).ready(function(){
 
 // call functions here
