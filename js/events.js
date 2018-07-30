@@ -3,14 +3,18 @@
 $(document).ready(function(){
 
 // call functions here
-  $('p').on("click", getIt);
+
 
 });
 
 function getIt(){
-  alert("Hey!");
+  $('p').on("click", getIt);
 }
 
 function frameIt(){
   $('img')
+}
+
+function pressIt(){
+  if(this.)
 }
