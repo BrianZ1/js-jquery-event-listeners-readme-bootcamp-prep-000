@@ -16,7 +16,11 @@ function getIt(){
   });
 }
 
-
+function frameIt(){
+  $('img').on("load", function(){
+    $(this).addClass("tasty");
+  });
+}
 
 function pressIt(){
   $('input').on("keydown", function(key){
