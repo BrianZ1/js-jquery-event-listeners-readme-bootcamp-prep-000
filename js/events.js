@@ -18,7 +18,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on("load", function(){
-    $('img').attr("tasty");
+    $('img').attr("class", "tasty");
   })
 }
 
