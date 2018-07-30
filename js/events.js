@@ -10,3 +10,7 @@ $(document).ready(function(){
 function getIt(){
   alert("Hey!");
 }
+
+function frameIt(){
+  $('img')
+}
