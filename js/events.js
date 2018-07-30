@@ -16,12 +16,14 @@ function getIt(){
 function frameIt(){
   $('img').on("load", function(){
     this.class = tasty;
-    this.border 
+    this.border;
   })
 }
 
 function pressIt(){
   $('input').on("keydown", function(key){
-    if(key.which == )
+    if(key.which == 71){
+      alert("G pressed");
+    }
   })
 }
