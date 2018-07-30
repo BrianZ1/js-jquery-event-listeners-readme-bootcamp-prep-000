@@ -18,8 +18,7 @@ function getIt(){
 
 function frameIt(){
   $('img').on("load", function(){
-    this.class = tasty;
-    this.border;
+    
   })
 }
 
