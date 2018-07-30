@@ -2,9 +2,9 @@
 
 $(document).ready(function(){
 
-  frameIt();
 // call functions here
   getIt();
+  frameIt();
   pressIt();
   submitIt();
 
